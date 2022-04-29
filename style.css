@@ -1,0 +1,122 @@
+/* Color and fonts */
+
+h1{
+	color: rgb(38, 53, 71);
+	font-family: Din;
+	font-weight: bolder;
+	font-size: 32px;
+}
+
+
+h2{
+	color: rgb(248, 118, 102);
+	font-family: Din;
+	font-weight: bolder;
+}
+
+h3{
+	color: rgb(19, 83, 138);
+	font-family: Din;
+}
+
+h4{
+	color: rgb(200, 200, 200);
+	font-family: Din;
+	font-weight: lighter;
+}
+
+h3,h4{
+	line-height: 1.5px;
+}
+
+body{
+	background-color: rgb(250, 250, 250);
+	color: rgb(30, 30, 30);
+	font-family: Din;
+	font-size: 16px;
+}
+
+a{
+	font-family: Din;
+	text-decoration: none;
+	color: rgb(248, 118, 102);
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+a:hover{
+	color: white;
+	font-weight: bolder;
+}
+
+#profilepic{
+	width: 200px;
+	box-shadow: 0px	0px	30px	darkgrey;
+	border-radius: 50%;
+}
+
+.content{
+	width: 1000px;
+	margin: 20px auto;
+}
+
+ @media(max-width: 760px){
+ 	.content{
+ 		width: 600px;
+ 	}
+ }
+
+ @media(max-width: 540px){
+ 	.content{
+ 		width: 400px;
+ 	}
+ }
+
+.extremite{
+	background-color: white;
+	padding: 60px;
+	margin: 50px;
+	box-shadow:0px	10px	30px	 rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-align: center	;
+}
+
+.cv{
+	background-color: white;
+	padding: 60px;
+	margin: 50px;
+	box-shadow:0px	10px	30px	 rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.button-pink{
+	background-color: rgb(248, 118, 102) ;
+	color: white;
+	padding: 15px	20px;
+	border-radius: 10px;
+	margin: 100px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;	
+	color: rgb(248, 118, 102);
+}
+
+.list-inline i:hover{
+	font-size: 40px;	
+	color: rgb(248, 118, 102);
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
